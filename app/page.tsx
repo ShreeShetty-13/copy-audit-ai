@@ -249,7 +249,7 @@ const CopyAuditLanding = () => {
             <div className="bg-white text-gray-900 rounded-3xl p-8 md:p-12 shadow-2xl space-y-8 max-w-2xl mx-auto">
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="w-40 h-40 border-2 border-gray-200 rounded-2xl flex-shrink-0">
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi://pay?pa=shreeshetty03@okaxis" alt="UPI QR" className="p-2" />
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=upi%3A%2F%2Fpay%3Fpa%3Dshreeshetty03%40okaxis%26pn%3DShree%20Shetty%26cu%3DINR%26am%3D999" alt="UPI QR" className="p-2" />
                 </div>
                 <div className="text-center md:text-left space-y-2">
                   <p className="text-sm text-gray-500 uppercase tracking-wider font-bold">Total Investment</p>
